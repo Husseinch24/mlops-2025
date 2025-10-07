@@ -1,0 +1,23 @@
+[project]
+name = "mlops-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Husseinch24", email = "hussein_chalhoub@hotmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib>=3.7.5",
+    "numpy>=1.24.4",
+    "pandas>=2.0.3",
+    "scikit-learn>=1.3.2",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+mlops-2025 = "mlops_2025:main"
+
+[build-system]
+requires = ["uv_build>=0.8.19,<0.9.0"]
+build-backend = "uv_build"
