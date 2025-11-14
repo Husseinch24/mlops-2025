@@ -8,6 +8,9 @@ class LogisticRegressionModel(BaseModel):
     
     def train(self, X, y):
         self.model.fit(X, y)
+        
+    def predict(self, X):
+        return self.model.predict(X)
     
     def save(self, path: str):
         with open(path, "wb") as f:

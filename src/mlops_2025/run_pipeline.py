@@ -3,9 +3,9 @@ import pandas as pd
 
 from mlops_2025.preprocessing.preprocessor import Preprocessor
 from mlops_2025.features.features_computer import FeatureComputer
-from mlops_2025.model.base_model import ModelTrainer
-from mlops_2025.evaluator.base_evaluate import Evaluator
-from mlops_2025.predictor.base_predictor import Predictor
+from mlops_2025.model.model_trainer import ModelTrainer
+from mlops_2025.evaluator.evaluator import Evaluator
+from mlops_2025.predictor.preditor import Predictor
 
 
 def build_parser():
